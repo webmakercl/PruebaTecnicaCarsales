@@ -67,6 +67,7 @@ Se ha modificado el **Program.cs**
 
 **En el caso de la app Angular**
 * **cd '.\2.- Angular\'** -> para entrar a la raiz de la app
+* **npm install** -> para restaurar dependencias
 * **ng serve** -> para ejecutar la aplicacion 
 * http://localhost:51194/
  
