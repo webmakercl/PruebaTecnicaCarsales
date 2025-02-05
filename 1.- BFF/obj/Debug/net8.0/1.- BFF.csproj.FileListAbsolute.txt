@@ -1,0 +1,37 @@
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.staticwebassets.endpoints.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.exe
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.deps.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.runtimeconfig.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\1.- BFF.pdb
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.sourcelink.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\scopedcss\bundle\1.- BFF.styles.css
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets\msbuild.1.- BFF.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets\msbuild.1.- BFF.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets\msbuild.build.1.- BFF.props
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.1.- BFF.props
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.1.- BFF.props
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.csproj.Up2Date
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\refint\1.- BFF.dll
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.pdb
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\1.- BFF.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\PruebaTecnica-ITHunters\1.- BFF\obj\Debug\net8.0\ref\1.- BFF.dll

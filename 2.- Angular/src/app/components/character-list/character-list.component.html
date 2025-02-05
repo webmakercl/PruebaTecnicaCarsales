@@ -1,0 +1,35 @@
+<h2>Personajes de Rick and Morty</h2>
+
+<div *ngIf="loading()" class="loading-overlay">
+  <div class="spinner"></div>
+</div>
+
+<!-- Modal de error -->
+<div *ngIf="errorMessage()" class="modal-overlay">
+  <div class="modal-content">
+    <h3>Error</h3>
+    <p>{{ errorMessage() }}</p>
+    <div class="modal-buttons">
+      <button (click)="retry()">Reintentar</button>
+      <button (click)="closeModal()">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="character-list">
+  <div class="character" *ngFor="let character of characters()">
+    <img [src]="character.image" alt="{{ character.name }}">
+    <p>{{ character.name }} ({{ character.status }} - {{ character.species }})</p>
+  </div>
+</div>
+
+<!-- Paginación -->
+<div class="pagination" *ngIf="totalPages() > 1">
+  <button (click)="loadPrevPage()" [disabled]="!prevPageUrl()">Anterior</button>
+  <span>Página {{ currentPage() }} de {{ totalPages() }}</span>
+  <button (click)="loadNextPage()" [disabled]="!nextPageUrl()">Siguiente</button>
+</div>
+
+
+

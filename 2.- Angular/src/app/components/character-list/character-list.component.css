@@ -1,0 +1,126 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination button:disabled {
+      background-color: #ddd;
+      cursor: not-allowed;
+}
+
+.pagination span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character {
+  text-align: center;
+  width: 150px;
+}
+
+.character img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos del modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-buttons button:hover {
+      background-color: #45a049;
+}
+
+modal-buttons button:focus {
+      outline: none;
+}
+
+
+/* Contenedor para el spinner, cubriendo toda la pantalla */
+.loading-overlay {
+  position: fixed; /* Se fija en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center; /* Centra el spinner horizontalmente */
+  align-items: center; /* Centra el spinner verticalmente */
+  z-index: 9999; /* Asegura que el spinner esté encima de todo */
+}
+
+/* Estilos para el spinner */
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3); /* Borde gris claro */
+  border-top: 4px solid #fff; /* Borde blanco en la parte superior */
+  border-radius: 50%;
+  width: 50px; /* Tamaño del spinner */
+  height: 50px; /* Tamaño del spinner */
+  animation: spin 1s linear infinite; /* Animación de rotación */
+}
+
+/* Animación de rotación */
+@keyframes spin {
+ 0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

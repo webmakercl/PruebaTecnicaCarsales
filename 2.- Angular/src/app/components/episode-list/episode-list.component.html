@@ -1,0 +1,80 @@
+<!-- Episodios -->
+<h2>Episodios de Rick and Morty</h2>
+
+<!-- Spinner de carga -->
+<div *ngIf="loading()" class="loading-overlay">
+  <div class="spinner"></div>
+</div>
+
+<!-- Modal de error -->
+<div *ngIf="errorMessage()" class="modal-overlay">
+  <div class="modal-content">
+    <h3>Error</h3>
+    <p>{{ errorMessage() }}</p>
+    <div class="modal-buttons">
+      <button (click)="retry()">Reintentar</button>
+      <button (click)="closeModal()">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Tabla de episodios -->
+<table border="1" style="width: 80%; margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th>N°</th>
+      <th>Nombre</th>
+      <th>Fecha de Emisión</th>
+      <th>Código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let episode of episodes()" (click)="openModal(episode)">
+      <td>{{ episode.id }}</td>
+      <td>{{ episode.name }}</td>
+      <td>{{ episode.air_date }}</td>
+      <td>{{ episode.episode }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<!-- Paginación -->
+<div class="pagination" style="width: 80%; margin: 0 auto; text-align: center;">
+  <button (click)="loadEpisodes(prevPageUrl() ?? undefined)" [disabled]="!prevPageUrl()">⬅ Anterior</button>
+  <span>Página {{ currentPage() }} de {{ totalPages() }}</span>
+  <button (click)="loadEpisodes(nextPageUrl() ?? undefined)" [disabled]="!nextPageUrl()">Siguiente ➡</button>
+</div>
+
+<!-- Modal de Episodio -->
+<div *ngIf="selectedEpisode()" class="modal" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <h3>{{ selectedEpisode().name }}</h3>
+    <p><strong>ID:</strong> {{ selectedEpisode().id }}</p>
+    <p><strong>Fecha de emisión:</strong> {{ selectedEpisode().air_date }}</p>
+    <p><strong>Código:</strong> {{ selectedEpisode().episode }}</p>
+    <p><strong>URL:</strong> {{ selectedEpisode().url }}</p>
+    <p><strong>Fecha Creación:</strong> {{ selectedEpisode().created }}</p>
+
+    <!-- Personajes del episodio -->
+    <h4>Personajes:</h4>
+    <div class="character-list">
+      <div class="character" *ngFor="let character of selectedEpisode().characters" (click)="openCharacterModal(character)">
+        <!--<p>{{ selectedEpisode().characters }}</p>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal del Personaje -->
+<div *ngIf="selectedCharacter()" class="modal" (click)="closeCharacterModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <span class="close" (click)="closeCharacterModal()">&times;</span>
+    <h3>{{ selectedCharacter().name }}</h3>
+    <p><strong>Estado:</strong> {{ selectedCharacter().status }}</p>
+    <p><strong>Especie:</strong> {{ selectedCharacter().species }}</p>
+    <p><strong>Género:</strong> {{ selectedCharacter().gender }}</p>
+  </div>
+</div>
